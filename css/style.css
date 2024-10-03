@@ -1,5 +1,11 @@
 body {
-  background: #f9f7fe;
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 0.404) 0%,
+    rgba(253, 29, 29, 0.404) 50%,
+    rgba(252, 176, 69, 0.404) 100%
+  );
   font-family: sans-serif;
 }
 
@@ -15,6 +21,7 @@ h1 {
   text-align: center;
   font-family: sans-serif;
   font-size: 36px;
+  color: #fab1bc;
 }
 
 h2 {
@@ -25,10 +32,14 @@ h2 {
 .container {
   max-width: 600px;
   margin: 60px auto;
-  background: white;
+  background: whitesmoke;
   padding: 30px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 10px;
+}
+
+.select {
+  color: #f9f7fe7e;
 }
 
 .city {
